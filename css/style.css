@@ -29,14 +29,15 @@ font-size: .8rem;
   width: 90vw;
   padding-top: 10px;
   padding-bottom: 30px;
+  height: 84vh;
+  overflow: auto;
 }
 
 .col {
-  height: 15vh;
+  height: 150px;
   width: calc((100% / 7) - 6px);
   
-  
-  background-image: url("https://i.picsum.photos/id/37/2000/1333.jpg?hmac=vpYLNsQZwU2szsZc4Uo17cW786vR0GEUVq4icaKopQI");
+  background-image: url("https://picsum.photos/200/300?random=1");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
